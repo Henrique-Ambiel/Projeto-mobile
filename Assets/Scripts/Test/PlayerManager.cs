@@ -1,4 +1,3 @@
-using Unity.Cinemachine;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -10,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject maxCheckList;
     public bool minMax;
     private ItemPickUp _itemPickUp;
+    public GameObject cabinets;
     public GameObject[] books;
     static public int valueBook;
 
@@ -40,6 +40,11 @@ public class PlayerManager : MonoBehaviour
             }
         }
 
+    }
+
+    public void PlayerStop()
+    {
+        JoystickPlayerExample.isMove = false;
     }
 
     public void Show()

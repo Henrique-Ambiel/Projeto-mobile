@@ -8,7 +8,8 @@ public class JoystickPlayerExample : MonoBehaviour
 
     private Vector2 currentVelocity;        // Velocidade atual do jogador
     public float smoothTime = 0.1f;         // Tempo de suavização (ajustável para controle fino)
-    public bool isMove = true;
+    static public bool isMove = true;
+
 
     public void FixedUpdate()
     {
@@ -32,6 +33,11 @@ public class JoystickPlayerExample : MonoBehaviour
                 rb.linearVelocity = Vector2.SmoothDamp(rb.linearVelocity, Vector2.zero, ref currentVelocity, smoothTime);
             }
         }
-        else return;
+        else
+        {
+            // Se isMove for falso, paramos imediatamente (sem suavização)
+            rb.linearVelocity = Vector2.zero;
+        }
     }
 }
+

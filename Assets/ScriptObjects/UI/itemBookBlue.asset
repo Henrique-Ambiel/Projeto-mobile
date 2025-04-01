@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Livro Azul
   itemIcon: {fileID: 5360558428310285105, guid: 7916db0fa9b003f4bb9685a5cf469071, type: 3}
+  value: 1

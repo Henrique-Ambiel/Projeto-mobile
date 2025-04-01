@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Livro Verde
   itemIcon: {fileID: 8935714696459650860, guid: 14b21fad27ce0be489743ee3258473ca, type: 3}
-  value: 2
+  value: 3

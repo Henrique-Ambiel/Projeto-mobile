@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Livro Amarelo
   itemIcon: {fileID: 5515631998887204024, guid: cc9ad7f2994d97748b9b928c8925c157, type: 3}
-  value: 3
+  value: 4

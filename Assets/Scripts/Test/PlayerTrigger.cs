@@ -4,6 +4,7 @@ public class PlayerTrigger
 {
     private PlayerManager playerManager;
 
+
     public PlayerTrigger(PlayerManager playerManager)
     {
         this.playerManager = playerManager;
@@ -19,7 +20,12 @@ public class PlayerTrigger
         }
         if (other.CompareTag("puzzleBooks"))
         {
-
+            if (PlayerManager.valueBook != 0)
+            {
+                playerManager.cabinets.SetActive(true);
+                playerManager.PlayerStop();
+            }
         }
     }
+
 }
