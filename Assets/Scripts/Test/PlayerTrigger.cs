@@ -17,5 +17,9 @@ public class PlayerTrigger
 
             playerManager.minCheckList.SetActive(true);
         }
+        if (other.CompareTag("puzzleBooks"))
+        {
+
+        }
     }
 }

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8eed16e64c87c94bb2a684579f14a95, type: 3}
+  m_Name: itemBookRed
+  m_EditorClassIdentifier: 
+  itemName: Livro Vermelho
+  itemIcon: {fileID: 7193752100202737663, guid: b27290667b7842e4a9cf5cf8ee5b0087, type: 3}
+  value: 1

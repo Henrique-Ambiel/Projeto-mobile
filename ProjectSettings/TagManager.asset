@@ -6,6 +6,7 @@ TagManager:
   tags:
   - doorTutorial
   - paper
+  - puzzleBooks
   layers:
   - Default
   - TransparentFX
