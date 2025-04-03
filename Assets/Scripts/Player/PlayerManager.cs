@@ -9,7 +9,6 @@ public class PlayerManager : MonoBehaviour
     private Rigidbody2D rb;
     public bool isMove = true;
     [Header("Other Settings")]
-
     private PlayerTrigger playerTrigger;
     private MinCheckListSystem _minCheckListSystem;
     private MaxCheckListSytem _maxCheckListSytem;
@@ -20,6 +19,8 @@ public class PlayerManager : MonoBehaviour
     public GameObject cabinets;
     public GameObject[] books;
     static public int valueBook;
+    public GameObject paper;
+    public int countSpawnBook = 0;
 
     private void Start()
     {
@@ -42,10 +43,18 @@ public class PlayerManager : MonoBehaviour
 
         if (other.CompareTag("paper"))
         {
-            for (int i = 0; i < books.Length; i++)
+            Debug.Log("paper trigger");
+
+            minCheckList.SetActive(true);
+
+            if (countSpawnBook == 0)
             {
-                books[i].SetActive(true);
+                SpawnBook();
+                countSpawnBook++;
             }
+            
+
+
         }
     }
 
@@ -62,6 +71,13 @@ public class PlayerManager : MonoBehaviour
 
     }
 
+    public void SpawnBook()
+    {
+            for (int i = 0; i < books.Length; i++)
+            {
+                books[i].SetActive(true);
+            }
+    }
     public void Move()
     {
         Vector2 targetDirection = new Vector2(VirtualJoystick.GetAxis("Horizontal"), VirtualJoystick.GetAxis("Vertical"));
@@ -84,15 +100,20 @@ public class PlayerManager : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
         }
     }
-    public void PlayerStop()
-    {
-        
-    }
 
     public void Show()
     {
         minMax = !minMax;
         minCheckList.SetActive(minMax);
         maxCheckList.SetActive(!minMax);
+
+        if (!minMax)
+        {
+            isMove = false;
+        }
+        if (minMax)
+        {
+            isMove = true;
+        }
     }
 }

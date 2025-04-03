@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Healthbar M\xE9dio_0": -4178432851407088531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

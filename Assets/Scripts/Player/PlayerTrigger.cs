@@ -1,10 +1,11 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerTrigger
 {
     private PlayerManager playerManager;
-
-
+    public int paper;
+    
     public PlayerTrigger(PlayerManager playerManager)
     {
         this.playerManager = playerManager;
@@ -12,19 +13,22 @@ public class PlayerTrigger
 
     public void TriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("paper"))
-        {
-            Debug.Log("paper trigger");
 
-            playerManager.minCheckList.SetActive(true);
-        }
+        
         if (other.CompareTag("puzzleBooks"))
         {
             if (PlayerManager.valueBook != 0)
             {
-                playerManager.cabinets.SetActive(true);
-                playerManager.PlayerStop();
+                if (ItemPickUp.CanAnswerPuzzle == true)
+                {
+                    playerManager.cabinets.SetActive(true);
+                    
+                }
             }
+        }
+        if (other.CompareTag("tapete"))
+        {
+            playerManager.minMax = true;
         }
     }
 
