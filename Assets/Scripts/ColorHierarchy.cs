@@ -9,6 +9,6 @@ public class ColorHierarchy : MonoBehaviour
 
     private void OnValidate()
     {
-        EditorApplication.RepaintHierarchyWindow(); // usa as cores para repintar o ambiente da hierarquia.
+        //EditorApplication.RepaintHierarchyWindow(); // usa as cores para repintar o ambiente da hierarquia.
     }
 }
