@@ -3,7 +3,7 @@ using Terresquall;
 public class PlayerManager : MonoBehaviour
 {
     [Header("Player Settings")]
-    public float moveSpeed = 5f;
+    public float moveSpeed = 4f;
     public float smoothTime = 0.1f;  
     private Vector2 currentVelocity;  
     private Rigidbody2D rb;
@@ -60,10 +60,10 @@ public class PlayerManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isMove)
-        {
+
             Move();
-        }
+
+ 
     }
 
     private void Update()
@@ -78,26 +78,40 @@ public class PlayerManager : MonoBehaviour
                 books[i].SetActive(true);
             }
     }
+    public void PlayerStop()
+    {
+        isMove = false;
+
+    }
     public void Move()
     {
-        Vector2 targetDirection = new Vector2(VirtualJoystick.GetAxis("Horizontal"), VirtualJoystick.GetAxis("Vertical"));
-
-        
-        if (targetDirection.sqrMagnitude > 0.01f)
+        if (isMove)
         {
-            
-            targetDirection.Normalize();
+            moveSpeed = 4;
+            Vector2 targetDirection = new Vector2(VirtualJoystick.GetAxis("Horizontal"), VirtualJoystick.GetAxis("Vertical"));
 
-            
-            Vector2 smoothedVelocity = Vector2.SmoothDamp(rb.linearVelocity, targetDirection * moveSpeed, ref currentVelocity, smoothTime);
 
-            
-            rb.linearVelocity = smoothedVelocity;
+            if (targetDirection.sqrMagnitude > 0.01f)
+            {
+
+                targetDirection.Normalize();
+
+
+                Vector2 smoothedVelocity = Vector2.SmoothDamp(rb.linearVelocity, targetDirection * moveSpeed, ref currentVelocity, smoothTime);
+
+
+                rb.linearVelocity = smoothedVelocity;
+            }
+            else
+            {
+
+                rb.linearVelocity = Vector2.zero;
+            }
         }
         else
         {
-            
             rb.linearVelocity = Vector2.zero;
+            moveSpeed = 0;
         }
     }
 

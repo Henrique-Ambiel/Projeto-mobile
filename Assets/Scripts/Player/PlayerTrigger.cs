@@ -22,6 +22,7 @@ public class PlayerTrigger
                 if (ItemPickUp.CanAnswerPuzzle == true)
                 {
                     playerManager.cabinets.SetActive(true);
+                    playerManager.PlayerStop();
                     
                 }
             }
