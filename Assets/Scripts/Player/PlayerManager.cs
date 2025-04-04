@@ -1,18 +1,20 @@
 using UnityEngine;
 using Terresquall;
+
 public class PlayerManager : MonoBehaviour
 {
     [Header("Player Settings")]
     public float moveSpeed = 4f;
-    public float smoothTime = 0.1f;  
-    private Vector2 currentVelocity;  
+    public float smoothTime = 0.1f;
+    private Vector2 currentVelocity;
     private Rigidbody2D rb;
     public bool isMove = true;
+
     [Header("Other Settings")]
     private PlayerTrigger playerTrigger;
     private MinCheckListSystem _minCheckListSystem;
     private MaxCheckListSytem _maxCheckListSytem;
-    public GameObject minCheckList; 
+    public GameObject minCheckList;
     public GameObject maxCheckList;
     public bool minMax;
     private ItemPickUp _itemPickUp;
@@ -21,6 +23,8 @@ public class PlayerManager : MonoBehaviour
     static public int valueBook;
     public GameObject paper;
     public int countSpawnBook = 0;
+    public PlayerAnimationController playerAnimationController;
+    private Vector3 originalScale;
 
     private void Start()
     {
@@ -31,9 +35,11 @@ public class PlayerManager : MonoBehaviour
         minMax = true;
         playerTrigger = new PlayerTrigger(this);
 
-        // Inicializa o CheckListSystem, passando a refer�ncia ao minCheckList
+        // Inicializa o CheckListSystem, passando a referência ao minCheckList
         _minCheckListSystem = new MinCheckListSystem(minCheckList);
-        _maxCheckListSytem= new MaxCheckListSytem(maxCheckList);
+        _maxCheckListSytem = new MaxCheckListSytem(maxCheckList);
+
+        originalScale = transform.localScale; // Guarda a escala original
     }
 
     // Chama o TriggerEnter para o PlayerTrigger
@@ -52,66 +58,76 @@ public class PlayerManager : MonoBehaviour
                 SpawnBook();
                 countSpawnBook++;
             }
-            
-
-
         }
     }
 
     private void FixedUpdate()
     {
-
-            Move();
-
- 
-    }
-
-    private void Update()
-    {
-
+        Move();
     }
 
     public void SpawnBook()
     {
-            for (int i = 0; i < books.Length; i++)
-            {
-                books[i].SetActive(true);
-            }
+        for (int i = 0; i < books.Length; i++)
+        {
+            books[i].SetActive(true);
+        }
     }
+
     public void PlayerStop()
     {
         isMove = false;
-
     }
+
     public void Move()
     {
         if (isMove)
         {
-            moveSpeed = 4;
+            moveSpeed = 4f;
             Vector2 targetDirection = new Vector2(VirtualJoystick.GetAxis("Horizontal"), VirtualJoystick.GetAxis("Vertical"));
 
+            float deadZone = 0.1f; // Define a zona morta para evitar animações oscilando
 
-            if (targetDirection.sqrMagnitude > 0.01f)
+            if (Mathf.Abs(targetDirection.x) > Mathf.Abs(targetDirection.y) && Mathf.Abs(targetDirection.x) > deadZone)
             {
+                // Movimento horizontal
+                playerAnimationController.PlayAnimation("PlayerXMovement");
 
-                targetDirection.Normalize();
+                // Flipa a sprite dependendo da direção
+                if (- targetDirection.x < -deadZone)
+                {
+                    transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
+                }
+                else if (-targetDirection.x > deadZone)
+                {
+                    transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
+                }
+            }
+            else if (Mathf.Abs(targetDirection.y) > deadZone)
+            {
+                // Movimento vertical
+                if (targetDirection.y > 0)
+                    playerAnimationController.PlayAnimation("PlayerYMovement");
+                else
+                    playerAnimationController.PlayAnimation("PlayerYMovementDown");
+            }
 
-
+            // Aqui está a movimentação do Rigidbody2D
+            if (targetDirection.sqrMagnitude > deadZone * deadZone) // Garante que só se move se houver input suficiente
+            {
+                targetDirection.Normalize(); // Normaliza para evitar velocidades diferentes em diagonais
                 Vector2 smoothedVelocity = Vector2.SmoothDamp(rb.linearVelocity, targetDirection * moveSpeed, ref currentVelocity, smoothTime);
-
-
                 rb.linearVelocity = smoothedVelocity;
             }
             else
             {
-
-                rb.linearVelocity = Vector2.zero;
+                rb.linearVelocity = Vector2.zero; // Para quando não há input do joystick
             }
         }
         else
         {
-            rb.linearVelocity = Vector2.zero;
-            moveSpeed = 0;
+            rb.linearVelocity = Vector2.zero; // Se isMove for falso, para o player
+            moveSpeed = 0f;
         }
     }
 
@@ -121,13 +137,6 @@ public class PlayerManager : MonoBehaviour
         minCheckList.SetActive(minMax);
         maxCheckList.SetActive(!minMax);
 
-        if (!minMax)
-        {
-            isMove = false;
-        }
-        if (minMax)
-        {
-            isMove = true;
-        }
+        isMove = minMax;
     }
 }
