@@ -8,7 +8,12 @@ public class PuzzleBooks : MonoBehaviour
 
    public void UpdateInventory()
     {
-        if(itemImage.sprite == null)
+        
         itemImage.sprite = inventory.currentItem.itemIcon;
+    }
+    public void EmptyInventory()
+    {
+        itemImage.sprite = null;
+        inventory.RemoveItem();
     }
 }

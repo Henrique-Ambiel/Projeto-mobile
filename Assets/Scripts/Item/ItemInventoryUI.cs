@@ -17,6 +17,7 @@ public class InventoryUI : MonoBehaviour
         else
         {
             itemImage.enabled = false;  // Esconde a imagem
+            
         }
     }
 }

@@ -1,14 +1,14 @@
 using UnityEngine;
 using Terresquall;
+using JetBrains.Annotations;
 
 public class PlayerManager : MonoBehaviour
 {
     [Header("Player Settings")]
     public float moveSpeed = 4f;
-    public float smoothTime = 0.1f;
-    private Vector2 currentVelocity;
     private Rigidbody2D rb;
     public bool isMove = true;
+    public GameObject Player;
 
     [Header("Other Settings")]
     private PlayerTrigger playerTrigger;
@@ -25,6 +25,7 @@ public class PlayerManager : MonoBehaviour
     public int countSpawnBook = 0;
     public PlayerAnimationController playerAnimationController;
     private Vector3 originalScale;
+    public GameObject screenSettingsZerado;
 
     private void Start()
     {
@@ -32,7 +33,7 @@ public class PlayerManager : MonoBehaviour
 
         isMove = true;
         valueBook = 0;
-        minMax = true;
+        minMax = false;
         playerTrigger = new PlayerTrigger(this);
 
         // Inicializa o CheckListSystem, passando a referência ao minCheckList
@@ -49,15 +50,21 @@ public class PlayerManager : MonoBehaviour
 
         if (other.CompareTag("paper"))
         {
-            Debug.Log("paper trigger");
-
-            minCheckList.SetActive(true);
-
             if (countSpawnBook == 0)
             {
+                Debug.Log("paper trigger");
+
+                maxCheckList.SetActive(true);
+                isMove = false;
                 SpawnBook();
                 countSpawnBook++;
             }
+        }
+        if (other.CompareTag("end"))
+        {
+            screenSettingsZerado.SetActive(true);
+            isMove=false; 
+          
         }
     }
 
@@ -78,56 +85,75 @@ public class PlayerManager : MonoBehaviour
     {
         isMove = false;
     }
+    public void PlayerUnStop()
+    {
+        isMove = true;
+    }
 
     public void Move()
     {
         if (isMove)
         {
-            moveSpeed = 4f;
+            moveSpeed = 3f;
             Vector2 targetDirection = new Vector2(VirtualJoystick.GetAxis("Horizontal"), VirtualJoystick.GetAxis("Vertical"));
 
-            float deadZone = 0.1f; // Define a zona morta para evitar animações oscilando
-
-            if (Mathf.Abs(targetDirection.x) > Mathf.Abs(targetDirection.y) && Mathf.Abs(targetDirection.x) > deadZone)
+            // ----------- MOVIMENTO HORIZONTAL ----------//
+            if (targetDirection.x != 0 || targetDirection.y != 0) // verificar se há movimento
             {
-                // Movimento horizontal
-                playerAnimationController.PlayAnimation("PlayerXMovement");
-
-                // Flipa a sprite dependendo da direção
-                if (- targetDirection.x < -deadZone)
+                if (Mathf.Abs(targetDirection.x) > Mathf.Abs(targetDirection.y)) // verifica se o movimento horizontal é mais forte, se for, move horizontalmente
                 {
-                    transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
+                    // movimento para a direita
+                    if (targetDirection.x > 0)
+                    {
+                        playerAnimationController.PlayAnimation("PlayerXMovement"); // tocar animação de andar pra direita
+                        Player.GetComponent<SpriteRenderer>().flipX = false; // desativar flip
+                    }
+                    // movimento para a esquerda
+                    else if (targetDirection.x < 0)
+                    {
+                        playerAnimationController.PlayAnimation("PlayerXMovement"); // tocar animação de andar à esquerda
+                        Player.GetComponent<SpriteRenderer>().flipX = true; // ativar flip
+                    }
                 }
-                else if (-targetDirection.x > deadZone)
+                // ----------- MOVIMENTO VERTICAL ----------//
+                else if (Mathf.Abs(targetDirection.y) > Mathf.Abs(targetDirection.x)) // Verifica se o movimento vertical é mais forte, se for, move verticallmente
                 {
-                    transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
+                    // movimento para cima
+                    if (targetDirection.y > 0)
+                    {
+                        playerAnimationController.PlayAnimation("PlayerYMovement"); // tocar animação de andar para cima
+                    }
+                    // movimento para baixo
+                    else if (targetDirection.y < 0)
+                    {
+                        playerAnimationController.PlayAnimation("PlayerYMovementDown"); // tocar animação de andar para baixo
+                    }
                 }
             }
-            else if (Mathf.Abs(targetDirection.y) > deadZone)
+
+            // ----------- IDLE -----------//
+            if (targetDirection.x == 0 && targetDirection.y == 0)
             {
-                // Movimento vertical
-                if (targetDirection.y > 0)
-                    playerAnimationController.PlayAnimation("PlayerYMovement");
-                else
-                    playerAnimationController.PlayAnimation("PlayerYMovementDown");
+                playerAnimationController.PlayAnimation("PlayerIdle"); // se não há movimento, tocar animação idle
             }
 
             // Aqui está a movimentação do Rigidbody2D
-            if (targetDirection.sqrMagnitude > deadZone * deadZone) // Garante que só se move se houver input suficiente
+            if (targetDirection.sqrMagnitude != 0) // Garante que só se move se houver input suficiente
             {
                 targetDirection.Normalize(); // Normaliza para evitar velocidades diferentes em diagonais
-                Vector2 smoothedVelocity = Vector2.SmoothDamp(rb.linearVelocity, targetDirection * moveSpeed, ref currentVelocity, smoothTime);
-                rb.linearVelocity = smoothedVelocity;
+                                             // Movimento direto, sem suavização excessiva
+                rb.linearVelocity = targetDirection * moveSpeed; // Atualiza a velocidade diretamente
             }
             else
             {
-                rb.linearVelocity = Vector2.zero; // Para quando não há input do joystick
+                rb.linearVelocity = Vector2.zero; // para o player quando não há input
             }
         }
         else
         {
-            rb.linearVelocity = Vector2.zero; // Se isMove for falso, para o player
-            moveSpeed = 0f;
+            rb.linearVelocity = Vector2.zero; // se isMove for falso, para o player
+            moveSpeed = 0f; // garantir que vá parar
+            playerAnimationController.PlayAnimation("PlayerIdle");
         }
     }
 

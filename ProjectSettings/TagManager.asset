@@ -8,6 +8,7 @@ TagManager:
   - paper
   - puzzleBooks
   - tapete
+  - end
   layers:
   - Default
   - TransparentFX
@@ -44,6 +45,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: player
+    uniqueID: 1725887943
+    locked: 0
+  - name: playerPassaEmBaixo
+    uniqueID: 1623743753
     locked: 0
   m_RenderingLayers:
   - Default

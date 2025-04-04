@@ -84,6 +84,7 @@ public class PuzzleBooksButtons : MonoBehaviour
         {
             ItemPickUp.CanAnswerPuzzle = false;
             backgroundCabinets.SetActive(false);
+
             switch (correct)
             {
                 case "C_Libras":
