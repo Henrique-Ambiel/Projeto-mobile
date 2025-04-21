@@ -3,16 +3,16 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    [SerializeField] private string gameplayLevelName;
+    [SerializeField] private string userDataName;
     [SerializeField] private GameObject menuPanel;
     [SerializeField] private GameObject configPanel;
 
 
-    //Botão que inicia o jogo 
-    public void Play()
+    //Botão que vai para tela de dados do usuário
+    public void DataName()
     {
-       SceneManager.LoadScene(gameplayLevelName);
-       Debug.Log("Jogo iniciado");
+       SceneManager.LoadScene(userDataName);
+       Debug.Log("Escolha o nome do usuário");
     }
 
     //Botão que abre a tela de configurações

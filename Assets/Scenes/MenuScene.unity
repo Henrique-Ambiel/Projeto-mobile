@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f873e25a25d544e83d29dda80adb6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameplayLevelName: GameplayScene
+  userDataName: UserData
   menuPanel: {fileID: 1377912334}
   configPanel: {fileID: 372394258}
 --- !u!4 &50119043
@@ -599,7 +599,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 50119042}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: Play
+        m_MethodName: DataName
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
