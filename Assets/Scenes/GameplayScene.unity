@@ -13303,6 +13303,10 @@ MonoBehaviour:
   isSettings: 0
   screenSettings: {fileID: 1955195843}
   player: {fileID: 1889728681}
+  userNameText: {fileID: 0}
+  profilePicture: {fileID: 0}
+  meninoSprite: {fileID: 0}
+  meninaSprite: {fileID: 0}
 --- !u!1 &1089047620
 GameObject:
   m_ObjectHideFlags: 0
@@ -19775,7 +19779,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.25, y: 5.17}
+    oldSize: {x: 2.25, y: 5.17059}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

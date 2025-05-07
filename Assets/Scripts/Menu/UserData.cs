@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -5,7 +6,7 @@ using UnityEngine.UI;
 public class UserData : MonoBehaviour
 {
     [SerializeField] private string gameplayLevelName;
-    public InputField userNameInput;
+    public TMP_InputField userNameInput;
     public Button boyButton;
     public Button girlButton;
     public Image boyImage;
