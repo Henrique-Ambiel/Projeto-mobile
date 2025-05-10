@@ -1,0 +1,736 @@
+fileFormatVersion: 2
+guid: 00682fbaa79917b4c8ed4e7fdeef8433
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7647005307663142182
+    second: "Anima\xE7\xE3o Protagonista_0"
+  - first:
+      213: 2360810561678212382
+    second: "Anima\xE7\xE3o Protagonista_1"
+  - first:
+      213: 724441885842807323
+    second: "Anima\xE7\xE3o Protagonista_2"
+  - first:
+      213: -2651032550967064858
+    second: "Anima\xE7\xE3o Protagonista_3"
+  - first:
+      213: 3068816228117173572
+    second: "Anima\xE7\xE3o Protagonista_4"
+  - first:
+      213: 2846518975701676909
+    second: "Anima\xE7\xE3o Protagonista_5"
+  - first:
+      213: 784024535893889912
+    second: "Anima\xE7\xE3o Protagonista_6"
+  - first:
+      213: -1237360348240267726
+    second: "Anima\xE7\xE3o Protagonista_7"
+  - first:
+      213: -8953844895275021540
+    second: "Anima\xE7\xE3o Protagonista_8"
+  - first:
+      213: -7520585965116335229
+    second: "Anima\xE7\xE3o Protagonista_9"
+  - first:
+      213: -219279081621551573
+    second: "Anima\xE7\xE3o Protagonista_10"
+  - first:
+      213: -188977696370989947
+    second: "Anima\xE7\xE3o Protagonista_11"
+  - first:
+      213: 1908031789570393714
+    second: "Anima\xE7\xE3o Protagonista_12"
+  - first:
+      213: 1163123282509038810
+    second: "Anima\xE7\xE3o Protagonista_13"
+  - first:
+      213: -1245557647140706103
+    second: "Anima\xE7\xE3o Protagonista_14"
+  - first:
+      213: -6177767280760305018
+    second: "Anima\xE7\xE3o Protagonista_15"
+  - first:
+      213: -4670389005416567531
+    second: "Anima\xE7\xE3o Protagonista_16"
+  - first:
+      213: 7132012078855638677
+    second: "Anima\xE7\xE3o Protagonista_17"
+  - first:
+      213: 4101274149390343692
+    second: "Anima\xE7\xE3o Protagonista_18"
+  - first:
+      213: -8623731414142170009
+    second: "Anima\xE7\xE3o Protagonista_19"
+  - first:
+      213: 416150902662658075
+    second: "Anima\xE7\xE3o Protagonista_20"
+  - first:
+      213: -3757388104470247131
+    second: "Anima\xE7\xE3o Protagonista_21"
+  - first:
+      213: -888051086124447375
+    second: "Anima\xE7\xE3o Protagonista_22"
+  - first:
+      213: 4501153203688035076
+    second: "Anima\xE7\xE3o Protagonista_23"
+  - first:
+      213: -225609321764771942
+    second: "Anima\xE7\xE3o Protagonista_24"
+  - first:
+      213: -7962104570567780262
+    second: "Anima\xE7\xE3o Protagonista_25"
+  - first:
+      213: -628832136411282431
+    second: "Anima\xE7\xE3o Protagonista_26"
+  - first:
+      213: -4080579393951026199
+    second: "Anima\xE7\xE3o Protagonista_27"
+  - first:
+      213: 1429313344463520852
+    second: "Anima\xE7\xE3o Protagonista_28"
+  - first:
+      213: -5925786332775212925
+    second: "Anima\xE7\xE3o Protagonista_29"
+  - first:
+      213: 4288136837388683976
+    second: "Anima\xE7\xE3o Protagonista_30"
+  - first:
+      213: 1317651501424340516
+    second: "Anima\xE7\xE3o Protagonista_31"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_0"
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2988
+        width: 229
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad23631303160e590800000000000000
+      internalID: -7647005307663142182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_1"
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 2984
+        width: 224
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1df1de92b843c020800000000000000
+      internalID: 2360810561678212382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_2"
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 2988
+        width: 228
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a13129e0cbd0a00800000000000000
+      internalID: 724441885842807323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_3"
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 2981
+        width: 219
+        height: 527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e64c9fc0f3a53bd0800000000000000
+      internalID: -2651032550967064858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_4"
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 2986
+        width: 228
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445d0e5a910a69a20800000000000000
+      internalID: 3068816228117173572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_5"
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 2358
+        width: 229
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d637b194dedd08720800000000000000
+      internalID: 2846518975701676909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_6"
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2346
+        width: 220
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8735525592a61ea00800000000000000
+      internalID: 784024535893889912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_7"
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 2356
+        width: 229
+        height: 526
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2363cffa15304dee0800000000000000
+      internalID: -1237360348240267726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_8"
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2344
+        width: 229
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b003bd18d8db380800000000000000
+      internalID: -8953844895275021540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_9"
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2356
+        width: 232
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bd37619e281a790800000000000000
+      internalID: -7520585965116335229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_14"
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1127
+        width: 150
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c828ee4be3e6bee0800000000000000
+      internalID: -1245557647140706103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_15"
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1743
+        width: 189
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a404da369244aa0800000000000000
+      internalID: -6177767280760305018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_16"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1749
+        width: 203
+        height: 526
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d6141c1f17f2fb0800000000000000
+      internalID: -4670389005416567531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_17"
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1745
+        width: 184
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e4cfdd23ff9f260800000000000000
+      internalID: 7132012078855638677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_18"
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1752
+        width: 200
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e57e00c17aae830800000000000000
+      internalID: 4101274149390343692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_12"
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1130
+        width: 132
+        height: 510
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388911cf9b063cda0800000000000000
+      internalID: -5925786332775212925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_13"
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1128
+        width: 189
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cac1dcebb5828b30800000000000000
+      internalID: 4288136837388683976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_19"
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1749
+        width: 150
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e68203f0d394210800000000000000
+      internalID: 1317651501424340516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_10"
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1126
+        width: 152
+        height: 527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923f6c8486f8a064c88b7825bcac3fe8
+      internalID: 41251226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Anima\xE7\xE3o Protagonista_11"
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1131
+        width: 202
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f986356077708eb41b06f0b38f91d4e6
+      internalID: -993280359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 37b64a42f7934b1449a03f3afd75a851
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Anima\xE7\xE3o Protagonista_10": 41251226
+      "Anima\xE7\xE3o Protagonista_11": -993280359
+      "Anima\xE7\xE3o Protagonista_12": -5925786332775212925
+      "Anima\xE7\xE3o Protagonista_13": 4288136837388683976
+      "Anima\xE7\xE3o Protagonista_19": 1317651501424340516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
