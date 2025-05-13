@@ -222,7 +222,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4263702443788459184, guid: 30d4cd032e188c44595a854b06c5eacb, type: 3}
+  m_Sprite: {fileID: -7647005307663142182, guid: 00682fbaa79917b4c8ed4e7fdeef8433, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -479,8 +479,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 2846518975701676909, guid: 00682fbaa79917b4c8ed4e7fdeef8433, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -902,7 +902,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1871,8 +1871,8 @@ MonoBehaviour:
   userNameInput: {fileID: 1227032260}
   boyButton: {fileID: 9424721}
   girlButton: {fileID: 309010671}
-  boyImage: {fileID: 0}
-  girlImage: {fileID: 0}
+  boyImage: {fileID: 9424722}
+  girlImage: {fileID: 309010672}
 --- !u!4 &2059280393
 Transform:
   m_ObjectHideFlags: 0
