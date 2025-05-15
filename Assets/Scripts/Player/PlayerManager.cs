@@ -1,6 +1,5 @@
 using UnityEngine;
 using Terresquall;
-using JetBrains.Annotations;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -36,11 +35,15 @@ public class PlayerManager : MonoBehaviour
         minMax = false;
         playerTrigger = new PlayerTrigger(this);
 
-        // Inicializa o CheckListSystem, passando a referência ao minCheckList
         _minCheckListSystem = new MinCheckListSystem(minCheckList);
         _maxCheckListSytem = new MaxCheckListSytem(maxCheckList);
 
-        originalScale = transform.localScale; // Guarda a escala original
+        originalScale = transform.localScale;
+
+        // Inicializa o controlador de animação com prefixo
+        string prefix = "Boy"; // ou "Girl", dependendo do jogador selecionado
+        Animator animator = Player.GetComponent<Animator>();
+        playerAnimationController.Init(animator, prefix);
     }
 
     // Chama o TriggerEnter para o PlayerTrigger
@@ -97,65 +100,39 @@ public class PlayerManager : MonoBehaviour
             moveSpeed = 3f;
             Vector2 targetDirection = new Vector2(VirtualJoystick.GetAxis("Horizontal"), VirtualJoystick.GetAxis("Vertical"));
 
-            // ----------- MOVIMENTO HORIZONTAL ----------//
-            if (targetDirection.x != 0 || targetDirection.y != 0) // verificar se há movimento
+            if (targetDirection != Vector2.zero)
             {
-                if (Mathf.Abs(targetDirection.x) > Mathf.Abs(targetDirection.y)) // verifica se o movimento horizontal é mais forte, se for, move horizontalmente
-                {
-                    // movimento para a direita
-                    if (targetDirection.x > 0)
-                    {
-                        playerAnimationController.PlayAnimation("PlayerXMovement"); // tocar animação de andar pra direita
-                        Player.GetComponent<SpriteRenderer>().flipX = false; // desativar flip
-                    }
-                    // movimento para a esquerda
-                    else if (targetDirection.x < 0)
-                    {
-                        playerAnimationController.PlayAnimation("PlayerXMovement"); // tocar animação de andar à esquerda
-                        Player.GetComponent<SpriteRenderer>().flipX = true; // ativar flip
-                    }
-                }
-                // ----------- MOVIMENTO VERTICAL ----------//
-                else if (Mathf.Abs(targetDirection.y) > Mathf.Abs(targetDirection.x)) // Verifica se o movimento vertical é mais forte, se for, move verticallmente
-                {
-                    // movimento para cima
-                    if (targetDirection.y > 0)
-                    {
-                        playerAnimationController.PlayAnimation("PlayerYMovement"); // tocar animação de andar para cima
-                    }
-                    // movimento para baixo
-                    else if (targetDirection.y < 0)
-                    {
-                        playerAnimationController.PlayAnimation("PlayerYMovementDown"); // tocar animação de andar para baixo
-                    }
-                }
-            }
+                // Flip de sprite
+                if (targetDirection.x > 0) Player.GetComponent<SpriteRenderer>().flipX = false;
+                if (targetDirection.x < 0) Player.GetComponent<SpriteRenderer>().flipX = true;
 
-            // ----------- IDLE -----------//
-            if (targetDirection.x == 0 && targetDirection.y == 0)
-            {
-                playerAnimationController.PlayAnimation("PlayerIdle"); // se não há movimento, tocar animação idle
-            }
-
-            // Aqui está a movimentação do Rigidbody2D
-            if (targetDirection.sqrMagnitude != 0) // Garante que só se move se houver input suficiente
-            {
-                targetDirection.Normalize(); // Normaliza para evitar velocidades diferentes em diagonais
-                                             // Movimento direto, sem suavização excessiva
-                rb.linearVelocity = targetDirection * moveSpeed; // Atualiza a velocidade diretamente
+                // Atualiza animação
+                playerAnimationController.SetMovement(targetDirection.x, targetDirection.y);
             }
             else
             {
-                rb.linearVelocity = Vector2.zero; // para o player quando não há input
+                playerAnimationController.SetMovement(0, 0);
+            }
+
+            // Movimento
+            if (targetDirection.sqrMagnitude != 0)
+            {
+                targetDirection.Normalize();
+                rb.linearVelocity = targetDirection * moveSpeed;
+            }
+            else
+            {
+                rb.linearVelocity = Vector2.zero;
             }
         }
         else
         {
-            rb.linearVelocity = Vector2.zero; // se isMove for falso, para o player
-            moveSpeed = 0f; // garantir que vá parar
-            playerAnimationController.PlayAnimation("PlayerIdle");
+            rb.linearVelocity = Vector2.zero;
+            moveSpeed = 0f;
+            playerAnimationController.SetMovement(0, 0); // Idle forçado
         }
     }
+
 
     public void Show()
     {

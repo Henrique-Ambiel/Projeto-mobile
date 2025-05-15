@@ -10,30 +10,29 @@ public class MenuInGameManager : MonoBehaviour
     public GameObject player;
     public TMP_Text userNameText;
     public Image profilePicture;
-    public Sprite meninoSprite;
-    public Sprite meninaSprite;
+    public Sprite boySprite;
+    public Sprite girlSprite;
 
     void Start()
     {
-        userNameText.text = UserData.userName;
+        // Corrigido: usa método para obter o nome
+        userNameText.text = UserData.GetName();
 
-        if (UserData.skin == "menino")
-            profilePicture.sprite = meninoSprite;
-        else if (UserData.skin == "menina")
-            profilePicture.sprite = meninaSprite;
+        // Corrigido: usa método para obter a skin
+        if (UserData.GetSkin().ToLower() == "menino")
+            profilePicture.sprite = boySprite;
+        else if (UserData.GetSkin().ToLower() == "menina")
+            profilePicture.sprite = girlSprite;
     }
 
-    public void  SwitchSettings()
+    public void SwitchSettings()
     {
         isSettings = !isSettings;
-
-
         screenSettings.SetActive(isSettings);
     }
-    
+
     public void Menu()
     {
         SceneManager.LoadScene("MenuScene");
     }
-
 }

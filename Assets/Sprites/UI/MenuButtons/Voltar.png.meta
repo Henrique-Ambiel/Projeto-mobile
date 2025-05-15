@@ -437,7 +437,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Voltar_0: 4864631687752983888
+      Voltar_1: 2795006954537260764
+      Voltar_2: -3856773717474175607
+      Voltar_3: -6100319990379975598
+      Voltar_4: -692430953279656450
+      Voltar_5: -6123413628263232352
+      Voltar_6: 2333883101556115688
+      Voltar_7: 3486395216804672223
+      Voltar_8: -5586372540946193812
+      Voltar_9: -6272450757458979987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

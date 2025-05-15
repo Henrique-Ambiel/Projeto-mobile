@@ -19644,6 +19644,7 @@ GameObject:
   - component: {fileID: 1889728687}
   - component: {fileID: 1889728688}
   - component: {fileID: 1889728689}
+  - component: {fileID: 1889728690}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -19695,7 +19696,7 @@ SpriteRenderer:
   m_SortingLayerID: 1725887943
   m_SortingLayer: 1
   m_SortingOrder: 43
-  m_Sprite: {fileID: -7647005307663142182, guid: 00682fbaa79917b4c8ed4e7fdeef8433, type: 3}
+  m_Sprite: {fileID: 3139966563932623243, guid: c63f797be3f7f7c458b65491a7751efd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -19716,8 +19717,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.95, y: -6.8, z: 0}
-  m_LocalScale: {x: 0.4656, y: 0.4656, z: 0.4656}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1751132134}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19755,17 +19756,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.032929897, y: -1.5664333}
+  m_Offset: {x: -0.032929897, y: -0.4}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.29, y: 5.2005935}
+    oldSize: {x: 0.48, y: 0.86}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.3732018, y: 1.818681}
+  m_Size: {x: 0.3, y: 0.1}
   m_EdgeRadius: 0
 --- !u!50 &1889728686
 Rigidbody2D:
@@ -19857,6 +19858,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 1889728688}
+--- !u!114 &1889728690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889728681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9fff5ea0f31f4478bb1ec5d34a1fa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatorControllerBoy: {fileID: 9100000, guid: 792576fea131d2c4c9c3658dd54b2329, type: 2}
+  animatorControllerGirl: {fileID: 9100000, guid: 8a4671fd08fe158488e4e459bf3d9523, type: 2}
 --- !u!1 &1953395608
 GameObject:
   m_ObjectHideFlags: 0

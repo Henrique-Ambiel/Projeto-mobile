@@ -222,7 +222,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7647005307663142182, guid: 00682fbaa79917b4c8ed4e7fdeef8433, type: 3}
+  m_Sprite: {fileID: 3139966563932623243, guid: c63f797be3f7f7c458b65491a7751efd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2846518975701676909, guid: 00682fbaa79917b4c8ed4e7fdeef8433, type: 3}
+  m_Sprite: {fileID: 1114327724960114673, guid: 435bf8a4a72689a45b9805bbe6f3856c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -795,9 +795,33 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2059280392}
-        m_TargetAssemblyTypeName: UserData, Assembly-CSharp
-        m_MethodName: Play
+      - m_Target: {fileID: 2059280394}
+        m_TargetAssemblyTypeName: UserDataManager, Assembly-CSharp
+        m_MethodName: SelectBoy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2059280394}
+        m_TargetAssemblyTypeName: UserDataManager, Assembly-CSharp
+        m_MethodName: SelectGirl
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2059280394}
+        m_TargetAssemblyTypeName: UserDataManager, Assembly-CSharp
+        m_MethodName: SaveUserData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1847,7 +1871,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2059280393}
-  - component: {fileID: 2059280392}
+  - component: {fileID: 2059280394}
   m_Layer: 0
   m_Name: UserDataManager
   m_TagString: Untagged
@@ -1855,24 +1879,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2059280392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059280391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5d83645d45b7194fbd021e61e98df00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameplayLevelName: GameplayScene
-  userNameInput: {fileID: 1227032260}
-  boyButton: {fileID: 9424721}
-  girlButton: {fileID: 309010671}
-  boyImage: {fileID: 9424722}
-  girlImage: {fileID: 309010672}
 --- !u!4 &2059280393
 Transform:
   m_ObjectHideFlags: 0
@@ -1888,6 +1894,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2059280394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059280391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d66826b170a16242a83d8bd11e2322d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameInput: {fileID: 1227032260}
+  selectedSkin: Menino
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
