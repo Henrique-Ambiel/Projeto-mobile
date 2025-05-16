@@ -1,20 +1,22 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+// Classe responsável por controlar as animações do jogador
 public class PlayerAnimationController : MonoBehaviour
 {
-    private Animator animator;
-    private Dictionary<string, int> animationBools;
+    private Animator animator; // Referência ao componente Animator
+    private Dictionary<string, int> animationBools; // Dicionário que armazena os hashes das animações booleanas
+    private string prefix; // Prefixo do personagem ("Boy" ou "Girl") para acessar as animações corretas
 
-    private string prefix;
-
+    // Método de inicialização do controlador de animação
     public void Init(Animator animatorRef, string characterPrefix)
     {
-        animator = animatorRef;
-        prefix = characterPrefix;
+        animator = animatorRef; // Define o animator recebido como referência
+        prefix = characterPrefix; // Define o prefixo do personagem
 
-        animationBools = new Dictionary<string, int>();
+        animationBools = new Dictionary<string, int>(); // Inicializa o dicionário de animações
 
+        // Associa os nomes das animações aos hashes correspondentes de acordo com o prefixo (Boy ou Girl)
         if (prefix == "Boy")
         {
             animationBools["Idle"] = AnimationHashes.BoyIdle;
@@ -31,10 +33,12 @@ public class PlayerAnimationController : MonoBehaviour
         }
     }
 
+    // Método que define qual animação deve ser ativada com base nos valores de movimento horizontal e vertical
     public void SetMovement(float horizontal, float vertical)
     {
-        ResetAllBools();
+        ResetAllBools(); // Desativa todas as animações antes de ativar a correta
 
+        // Ativa a animação com base na direção do movimento
         if (horizontal != 0)
         {
             animator.SetBool(animationBools["XMovement"], true);
@@ -49,15 +53,17 @@ public class PlayerAnimationController : MonoBehaviour
         }
         else
         {
-            animator.SetBool(animationBools["Idle"], true);
+            animator.SetBool(animationBools["Idle"], true); // Ativa a animação de idle se não houver movimento
         }
     }
 
+    // Método auxiliar que desativa todas as animações booleanas
     private void ResetAllBools()
     {
         foreach (var hash in animationBools.Values)
         {
-            animator.SetBool(hash, false);
+            animator.SetBool(hash, false); // Define todos os bools de animação como false
         }
     }
 }
+

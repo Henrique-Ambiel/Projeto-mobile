@@ -10,10 +10,10 @@ public class PlayerSpawn : MonoBehaviour
     // Método chamado automaticamente quando o jogo inicia
     void Start()
     {
-        string skinSelecionada = PlayerPrefs.GetString("skinSelecionada", "Menino");  // Recupera a skin selecionada salva no PlayerPrefs (padrão: "Menino" caso não exista)
+        string skinSelected = PlayerPrefs.GetString("skinSelecionada", "Menino");  // Recupera a skin selecionada salva no PlayerPrefs (padrão: "Menino" caso não exista)
 
         // Escolhe o prefab correspondente com base na skin selecionada usando operador ternário
-        GameObject playerPrefabToSpawn = (skinSelecionada == "Menina") ? playerGirlPrefab : playerBoyPrefab;
+        GameObject playerPrefabToSpawn = (skinSelected == "Menina") ? playerGirlPrefab : playerBoyPrefab;
 
         // Instancia o personagem escolhido na posição do objeto que contém este script
         GameObject playerInstance = Instantiate(playerPrefabToSpawn, transform.position, Quaternion.identity);
