@@ -22,9 +22,14 @@ public class PlayerManager : MonoBehaviour
     static public int valueBook;
     public GameObject paper;
     public int countSpawnBook = 0;
-    public PlayerAnimationController playerAnimationController;
     private Vector3 originalScale;
     public GameObject screenSettingsZerado;
+
+    public string characterPrefix = "Boy"; // Defina no prefab: "Boy" ou "Girl"
+    public PlayerAnimationController playerAnimationController;
+
+    private Animator animator;
+
 
     private void Start()
     {
@@ -40,13 +45,15 @@ public class PlayerManager : MonoBehaviour
 
         originalScale = transform.localScale;
 
-        // Inicializa o controlador de animação com prefixo
-        string prefix = "Boy"; // ou "Girl", dependendo do jogador selecionado
-        Animator animator = Player.GetComponent<Animator>();
-        playerAnimationController.Init(animator, prefix);
+        // Lê skin selecionada para definir o prefixo correto (Boy ou Girl)
+        characterPrefix = PlayerUtils.GetCharacterPrefix();
+
+        // Inicializa a animação com o Animator do próprio Player
+        animator = GetComponent<Animator>();
+        playerAnimationController.Init(animator, characterPrefix);
     }
 
-    // Chama o TriggerEnter para o PlayerTrigger
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         playerTrigger.TriggerEnter2D(other);
@@ -66,8 +73,7 @@ public class PlayerManager : MonoBehaviour
         if (other.CompareTag("end"))
         {
             screenSettingsZerado.SetActive(true);
-            isMove=false; 
-          
+            isMove = false;
         }
     }
 
@@ -88,6 +94,7 @@ public class PlayerManager : MonoBehaviour
     {
         isMove = false;
     }
+
     public void PlayerUnStop()
     {
         isMove = true;
@@ -102,11 +109,9 @@ public class PlayerManager : MonoBehaviour
 
             if (targetDirection != Vector2.zero)
             {
-                // Flip de sprite
                 if (targetDirection.x > 0) Player.GetComponent<SpriteRenderer>().flipX = false;
                 if (targetDirection.x < 0) Player.GetComponent<SpriteRenderer>().flipX = true;
 
-                // Atualiza animação
                 playerAnimationController.SetMovement(targetDirection.x, targetDirection.y);
             }
             else
@@ -114,7 +119,6 @@ public class PlayerManager : MonoBehaviour
                 playerAnimationController.SetMovement(0, 0);
             }
 
-            // Movimento
             if (targetDirection.sqrMagnitude != 0)
             {
                 targetDirection.Normalize();
@@ -132,7 +136,6 @@ public class PlayerManager : MonoBehaviour
             playerAnimationController.SetMovement(0, 0); // Idle forçado
         }
     }
-
 
     public void Show()
     {
