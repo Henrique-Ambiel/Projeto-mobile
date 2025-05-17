@@ -31,6 +31,8 @@ public class PlayerAnimationController : MonoBehaviour
             animationBools["YMovement"] = AnimationHashes.GirlYMovement;
             animationBools["YMovementDown"] = AnimationHashes.GirlYMovementDown;
         }
+
+        Debug.Log("Init chamado com prefixo: " + characterPrefix);
     }
 
     // Método que define qual animação deve ser ativada com base nos valores de movimento horizontal e vertical

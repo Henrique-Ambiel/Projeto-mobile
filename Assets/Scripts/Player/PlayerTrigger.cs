@@ -21,7 +21,7 @@ public class PlayerTrigger
             {
                 if (ItemPickUp.CanAnswerPuzzle == true)
                 {
-                    playerManager.cabinets.SetActive(true);
+                    playerManager.ShowCabinets(true);
                     playerManager.PlayerStop();
                     
                 }

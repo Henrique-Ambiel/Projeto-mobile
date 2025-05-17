@@ -41,12 +41,6 @@ AnimatorStateTransition:
     m_ConditionEvent: BoyYMovementDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: BoyIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyXMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
     m_ConditionEvent: BoyYMovement
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -73,12 +67,6 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: BoyIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyXMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovement
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: BoyYMovementDown
@@ -138,13 +126,7 @@ AnimatorStateTransition:
     m_ConditionEvent: BoyYMovementDown
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: BoyIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
     m_ConditionEvent: BoyXMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovement
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4867137717793763790}
@@ -173,25 +155,25 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: BoyXMovement
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: BoyYMovement
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: BoyYMovementDown
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
@@ -244,16 +226,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: BoyIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
     m_ConditionEvent: BoyXMovement
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: BoyYMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovementDown
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1020633951440989797}
@@ -281,13 +257,7 @@ AnimatorStateTransition:
     m_ConditionEvent: BoyXMovement
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: BoyIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
     m_ConditionEvent: BoyYMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovementDown
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 309115876042554152}
@@ -313,12 +283,6 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: BoyXMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovement
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: BoyYMovementDown
@@ -347,12 +311,6 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: BoyYMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyXMovement
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: BoyYMovementDown
@@ -385,12 +343,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: BoyXMovement
     m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovementDown
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5195148500596807085}
   m_Solo: 0
@@ -418,12 +370,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: BoyXMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyIdle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 309115876042554152}
@@ -480,12 +426,6 @@ AnimatorStateTransition:
     m_ConditionEvent: BoyIdle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: BoyXMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovementDown
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
     m_ConditionEvent: BoyYMovement
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -512,12 +452,6 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: BoyIdle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyXMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovement
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: BoyYMovementDown
@@ -550,21 +484,21 @@ AnimatorStateMachine:
     m_Position: {x: 150, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1020633951440989797}
-    m_Position: {x: 750, y: 250, z: 0}
+    m_Position: {x: 1000, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 309115876042554152}
-    m_Position: {x: 470, y: 340, z: 0}
+    m_Position: {x: 490, y: 370, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4867137717793763790}
-    m_Position: {x: 590, y: 110, z: 0}
+    m_Position: {x: 550, y: 180, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -60, y: 250, z: 0}
-  m_EntryPosition: {x: 50, y: 80, z: 0}
-  m_ExitPosition: {x: 30, y: 420, z: 0}
+  m_AnyStatePosition: {x: 150, y: 200, z: 0}
+  m_EntryPosition: {x: -100, y: 250, z: 0}
+  m_ExitPosition: {x: -80, y: 180, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 5195148500596807085}
 --- !u!1101 &8940043193719509515
@@ -580,12 +514,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: BoyYMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyXMovement
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: BoyYMovementDown
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1020633951440989797}

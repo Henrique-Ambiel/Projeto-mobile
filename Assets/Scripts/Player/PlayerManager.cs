@@ -14,17 +14,17 @@ public class PlayerManager : MonoBehaviour
     private PlayerTrigger playerTrigger; // Controle de gatilhos
     private MinCheckListSystem _minCheckListSystem; // Checklist mínima
     private MaxCheckListSytem _maxCheckListSytem; // Checklist máxima
-    public GameObject minCheckList; // UI da checklist mínima
-    public GameObject maxCheckList; // UI da checklist máxima
+    private GameObject minCheckList; // UI da checklist mínima
+    private GameObject maxCheckList; // UI da checklist máxima
     public bool minMax; // Controle de qual checklist está ativa
     private ItemPickUp _itemPickUp; // Sistema de coleta (não usado no script)
-    public GameObject cabinets; // Armários (não usado diretamente aqui)
+    private GameObject cabinets; // Armários (não usado diretamente aqui)
     public GameObject[] books; // Array de livros que serão ativados
     static public int valueBook; // Valor compartilhado dos livros
     public GameObject paper; // Objeto que ativa checklist
     public int countSpawnBook = 0; // Controle para spawn único dos livros
     private Vector3 originalScale; // Escala original do jogador
-    public GameObject screenSettingsZerado; // Tela de finalização
+    private GameObject screenSettingsZerado; // Tela de finalização
 
     public string characterPrefix = "Boy"; // Prefixo para animações (Boy ou Girl)
     public PlayerAnimationController playerAnimationController; // Controlador de animações
@@ -45,9 +45,15 @@ public class PlayerManager : MonoBehaviour
         originalScale = transform.localScale; // Armazena escala inicial
 
         characterPrefix = PlayerUtils.GetCharacterPrefix(); // Define prefixo da skin selecionada
+        Debug.Log(characterPrefix);
 
         animator = GetComponent<Animator>(); // Pega o Animator
         playerAnimationController.Init(animator, characterPrefix); // Inicializa o controlador de animação
+    }
+
+    public void ShowCabinets(bool active)
+    {
+        cabinets.SetActive(active);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

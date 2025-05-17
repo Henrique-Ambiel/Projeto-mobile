@@ -191,8 +191,9 @@ MonoBehaviour:
   - {fileID: 0}
   paper: {fileID: 0}
   countSpawnBook: 0
-  playerAnimationController: {fileID: 919584374293532297}
   screenSettingsZerado: {fileID: 0}
+  characterPrefix: Boy
+  playerAnimationController: {fileID: 919584374293532297}
 --- !u!95 &5870908812741204490
 Animator:
   serializedVersion: 7
