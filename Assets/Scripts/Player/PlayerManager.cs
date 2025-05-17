@@ -11,6 +11,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject Player;
 
     [Header("Other Settings")]
+<<<<<<< Updated upstream
     private PlayerTrigger playerTrigger;
     private MinCheckListSystem _minCheckListSystem;
     private MaxCheckListSytem _maxCheckListSytem;
@@ -30,6 +31,34 @@ public class PlayerManager : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+=======
+    private PlayerTrigger playerTrigger; // Controle de gatilhos
+    private MinCheckListSystem _minCheckListSystem; // Checklist mínima
+    private MaxCheckListSytem _maxCheckListSytem; // Checklist máxima
+    private GameObject minCheckList; // UI da checklist mínima
+    private GameObject maxCheckList; // UI da checklist máxima
+    public bool minMax; // Controle de qual checklist está ativa
+    private ItemPickUp _itemPickUp; // Sistema de coleta (não usado no script)
+    private GameObject cabinets; // Armários (não usado diretamente aqui)
+    public GameObject[] books; // Array de livros que serão ativados
+    static public int valueBook; // Valor compartilhado dos livros
+    public GameObject paper; // Objeto que ativa checklist
+    public int countSpawnBook = 0; // Controle para spawn único dos livros
+    private Vector3 originalScale; // Escala original do jogador
+    private GameObject screenSettingsZerado; // Tela de finalização
+
+    private Animator animator; // Componente de animação
+    private SpriteRenderer sr; // Componente de renderização de sprite
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>(); // Inicializa Animator
+        rb = GetComponent<Rigidbody2D>(); // Inicializa Rigidbody
+        isMove = true; // Ativa movimentação
+        valueBook = 0; // Zera valor dos livros
+        minMax = false; // Checklist começa inativa
+        playerTrigger = new PlayerTrigger(this); // Inicializa sistema de gatilhos
+>>>>>>> Stashed changes
 
         isMove = true;
         valueBook = 0;
@@ -40,7 +69,16 @@ public class PlayerManager : MonoBehaviour
         _minCheckListSystem = new MinCheckListSystem(minCheckList);
         _maxCheckListSytem = new MaxCheckListSytem(maxCheckList);
 
+<<<<<<< Updated upstream
         originalScale = transform.localScale; // Guarda a escala original
+=======
+        sr = GetComponent<SpriteRenderer>(); // Inicializa SpriteRenderer
+    }
+
+    public void ShowCabinets(bool active)
+    {
+        cabinets.SetActive(active);
+>>>>>>> Stashed changes
     }
 
     // Chama o TriggerEnter para o PlayerTrigger
@@ -70,7 +108,12 @@ public class PlayerManager : MonoBehaviour
 
     private void FixedUpdate()
     {
+<<<<<<< Updated upstream
         Move();
+=======
+        Move(); // Movimento contínuo no FixedUpdate
+        Animation(); // Atualiza animação
+>>>>>>> Stashed changes
     }
 
     public void SpawnBook()
@@ -131,6 +174,7 @@ public class PlayerManager : MonoBehaviour
                 }
             }
 
+<<<<<<< Updated upstream
             // ----------- IDLE -----------//
             if (targetDirection.x == 0 && targetDirection.y == 0)
             {
@@ -147,13 +191,36 @@ public class PlayerManager : MonoBehaviour
             else
             {
                 rb.linearVelocity = Vector2.zero; // para o player quando não há input
+=======
+                //playerAnimationController[].SetMovement(targetDirection.x, targetDirection.y); // Atualiza animação
+            }
+            else
+            {
+                //playerAnimationController.SetMovement(0, 0); // Animação de idle
+            }
+
+            if (targetDirection.sqrMagnitude != 0)
+            {
+                targetDirection.Normalize(); // Normaliza direção
+                rb.linearVelocity = targetDirection * moveSpeed; // Aplica movimento
+            }
+            else
+            {
+                rb.linearVelocity = Vector2.zero; // Para se não estiver se movendo
+>>>>>>> Stashed changes
             }
         }
         else
         {
+<<<<<<< Updated upstream
             rb.linearVelocity = Vector2.zero; // se isMove for falso, para o player
             moveSpeed = 0f; // garantir que vá parar
             playerAnimationController.PlayAnimation("PlayerIdle");
+=======
+            rb.linearVelocity = Vector2.zero; // Para movimento
+            moveSpeed = 0f; // Zera velocidade
+            //playerAnimationController.SetMovement(0, 0); // Força idle
+>>>>>>> Stashed changes
         }
     }
 
@@ -164,5 +231,48 @@ public class PlayerManager : MonoBehaviour
         maxCheckList.SetActive(!minMax);
 
         isMove = minMax;
+    }
+
+    private string currentAnimation = "";
+
+    private void PlayIfNotPlaying(string animationName) // verifica se a animação atual é diferente da nova
+    {
+    if (currentAnimation == animationName) return; // se a animação atual for a mesma, não faz nada
+
+        animator.Play(animationName); // toca a nova animação
+        currentAnimation = animationName; // atualiza animação atual
+    }
+    public void Animation() // atualiza animação com base na velocidade
+    {
+        if (!isMove) return; // para de atualizar animação se não estiver se movendo
+
+        Vector2 velocity = rb.linearVelocity; // pega velocidade atual
+        float speed = velocity.magnitude; // calcula magnitude da velocidade
+
+        if (speed == 0f) // se a velocidade for zero
+        {
+            PlayIfNotPlaying("idle"); // toca animação idle
+            return; // sai do método
+        }
+        
+        if (Mathf.Abs(velocity.x) > Mathf.Abs(velocity.y)) // se o movimento for horizontal
+        {
+            // Horizontal
+            PlayIfNotPlaying("walk");
+
+            
+            if (velocity.x < 0) 
+                sr.flipX = true; // vira sprite para esquerda
+            else
+                sr.flipX = false; // senão, vira sprite para direita
+        }
+        else // se o movimento for vertical
+        {
+            
+            if (velocity.y > 0) // se o movimento for para cima
+                PlayIfNotPlaying("walkUp");
+            else
+                PlayIfNotPlaying("walkDown"); // senão, o movimento é para baixo
+        }
     }
 }
