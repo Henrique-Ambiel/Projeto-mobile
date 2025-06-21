@@ -3,45 +3,55 @@ using Unity.Cinemachine;
 
 public class PlayerSpawn : MonoBehaviour
 {
-    public GameObject playerBoyPrefab; // prefab do personagem Boy
-    public GameObject playerGirlPrefab; // prefab do personagem Girl
+    public GameObject playerBoyPrefab;
+    public GameObject playerGirlPrefab;
 
-    public Transform spawnPoint; // ponto de spawn do jogador   
     public CinemachineCamera virtualCamera; // arraste sua câmera aqui no Inspector
 
-    public static string PlayerSkin = ""; // variável estática para armazenar a skin do jogador
-    private static bool hasSpawned = false; // controle para evitar múltiplos spawns
+    public static string PlayerSkin = "";
+    public static bool hasSpawned = false;
 
     void Start()
     {
-        if (hasSpawned) return; // Se já tiver spawnado, não faz nada
+        if (hasSpawned) return;
 
-        GameObject prefabToSpawn = null; // Inicializa prefab a null
+        GameObject prefabToSpawn = null;
 
-        if (PlayerSkin == "Boy") // verifica a skin do jogador
-            prefabToSpawn = playerBoyPrefab; // instancia o prefab Boy
-        else if (PlayerSkin == "Girl") // verifica a skin do jogador
-            prefabToSpawn = playerGirlPrefab; // instancia o prefab Girl
+        if (PlayerSkin == "Boy")
+            prefabToSpawn = playerBoyPrefab;
+        else if (PlayerSkin == "Girl")
+            prefabToSpawn = playerGirlPrefab;
 
-        if (prefabToSpawn != null) // se o prefab não for nulo
+        if (prefabToSpawn != null)
         {
-            GameObject playerInstance = Instantiate(prefabToSpawn, spawnPoint.position, Quaternion.identity); // instancia o prefab na posição do spawn
-            hasSpawned = true; // marca que o jogador foi spawnado
+            GameObject playerInstance = Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+            hasSpawned = true;
 
-            // faz a Cinemachine seguir o jogador instanciado
-            if (virtualCamera != null)
+            // Atribui PlayerManager ao PuzzleBooksButtons
+            PlayerManager pm = playerInstance.GetComponent<PlayerManager>();
+            PuzzleBooksButtons puzzleBooks = FindAnyObjectByType<PuzzleBooksButtons>();
+            if (puzzleBooks != null && pm != null)
             {
-                virtualCamera.Follow = playerInstance.transform; // atribui o jogador à câmera
-                virtualCamera.LookAt = playerInstance.transform; 
+                puzzleBooks.SetPlayerManager(pm);
             }
             else
             {
-                Debug.LogWarning("virtual camera não encontrada");
+                Debug.LogError("Não foi possível conectar o PlayerManager ao PuzzleBooksButtons.");
+            }
+            // Faz a Cinemachine seguir o jogador instanciado
+            if (virtualCamera != null)
+            {
+                virtualCamera.Follow = playerInstance.transform;
+                virtualCamera.LookAt = playerInstance.transform; // opcional, se usar LookAt
+            }
+            else
+            {
+                Debug.LogWarning("Virtual Camera não atribuída no PlayerSpawn.");
             }
         }
         else
         {
-            Debug.LogWarning("nenhum personagem selecionado para o spawn");
+            Debug.LogWarning("Nenhum personagem selecionado para spawn.");
         }
     }
 }

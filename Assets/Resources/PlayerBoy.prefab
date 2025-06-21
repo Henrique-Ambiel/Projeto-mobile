@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 433639728389997186}
   - component: {fileID: 8158601160221506511}
   - component: {fileID: 5870908812741204490}
-  - component: {fileID: 919584374293532297}
+  - component: {fileID: -5240884051707027410}
   m_Layer: 0
   m_Name: PlayerBoy
   m_TagString: Player
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,12 +81,12 @@ SpriteRenderer:
   m_SortingLayerID: 1725887943
   m_SortingLayer: 1
   m_SortingOrder: 43
-  m_Sprite: {fileID: 3139966563932623243, guid: c63f797be3f7f7c458b65491a7751efd, type: 3}
+  m_Sprite: {fileID: 9193076459712740265, guid: 481e58e1a31203f468316c43f3969bd0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.5, y: 0.9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -153,12 +153,12 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.032929897, y: -0.4}
+  m_Offset: {x: -0.025, y: 0.04}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.48, y: 0.86}
-    newSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.5, y: 0.9}
+    newSize: {x: 0.5, y: 0.9}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -178,16 +178,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  isMove: 1
   Player: {fileID: 5819219744366218571}
+  minCheckList: {fileID: 0}
+  maxCheckList: {fileID: 0}
   minMax: 0
-  books:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   paper: {fileID: 0}
   countSpawnBook: 0
+  characterPrefix: Boy
+  animator: {fileID: 0}
 --- !u!95 &5870908812741204490
 Animator:
   serializedVersion: 7
@@ -210,7 +208,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &919584374293532297
+--- !u!114 &-5240884051707027410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,6 +217,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5819219744366218571}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0874250a2cf3564da5869a3e2401cf9, type: 3}
+  m_Script: {fileID: 11500000, guid: cf8ec0868c2bf90409d88eafac2fdf97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

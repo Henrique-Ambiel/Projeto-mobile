@@ -1,0 +1,1647 @@
+fileFormatVersion: 2
+guid: 4a006032b80516b429cd2a63435635eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1518620588551661893
+    second: Albafeto 2_0
+  - first:
+      213: 210162462248035118
+    second: Albafeto 2_1
+  - first:
+      213: 8222804220223584411
+    second: Albafeto 2_2
+  - first:
+      213: 3912441328355207284
+    second: Albafeto 2_3
+  - first:
+      213: -7065426602070197273
+    second: Albafeto 2_4
+  - first:
+      213: -9160976641215304455
+    second: Albafeto 2_5
+  - first:
+      213: 3815244742537314882
+    second: Albafeto 2_6
+  - first:
+      213: 3565993458190278835
+    second: Albafeto 2_7
+  - first:
+      213: 8853725761386896048
+    second: Albafeto 2_8
+  - first:
+      213: -3283503499937078584
+    second: Albafeto 2_9
+  - first:
+      213: 1111759357935532877
+    second: Albafeto 2_10
+  - first:
+      213: -4157714831932171855
+    second: Albafeto 2_11
+  - first:
+      213: -2418833528075716955
+    second: Albafeto 2_12
+  - first:
+      213: -5932749338081694856
+    second: Albafeto 2_13
+  - first:
+      213: 2048783954822988169
+    second: Albafeto 2_14
+  - first:
+      213: -7883177347203777147
+    second: Albafeto 2_15
+  - first:
+      213: 4189075562627263239
+    second: Albafeto 2_16
+  - first:
+      213: 5591012925907737002
+    second: Albafeto 2_17
+  - first:
+      213: -6524927929977086260
+    second: Albafeto 2_18
+  - first:
+      213: -6161307843551399776
+    second: Albafeto 2_19
+  - first:
+      213: 2716489134282693630
+    second: Albafeto 2_20
+  - first:
+      213: 7437929182214737279
+    second: Albafeto 2_21
+  - first:
+      213: -5159435435833279465
+    second: Albafeto 2_22
+  - first:
+      213: -7621309967816255294
+    second: Albafeto 2_23
+  - first:
+      213: -934635179058017487
+    second: Albafeto 2_24
+  - first:
+      213: -8932381565172097907
+    second: Albafeto 2_25
+  - first:
+      213: -8763633384247757743
+    second: Albafeto 2_26
+  - first:
+      213: 6333481179059766135
+    second: Albafeto 2_27
+  - first:
+      213: 8690579220624071159
+    second: Albafeto 2_28
+  - first:
+      213: 2383671570629277499
+    second: Albafeto 2_29
+  - first:
+      213: -1636256398336493542
+    second: Albafeto 2_30
+  - first:
+      213: -8698855519916421417
+    second: Albafeto 2_31
+  - first:
+      213: -8722117146993919470
+    second: Albafeto 2_32
+  - first:
+      213: 2593301100296127395
+    second: Albafeto 2_33
+  - first:
+      213: 1438236480324205387
+    second: Albafeto 2_34
+  - first:
+      213: -1046277778767833709
+    second: Albafeto 2_35
+  - first:
+      213: 4832437771432804619
+    second: Albafeto 2_36
+  - first:
+      213: 8119822388486608739
+    second: Albafeto 2_37
+  - first:
+      213: -5625911236833529769
+    second: Albafeto 2_38
+  - first:
+      213: -1216597967970858428
+    second: Albafeto 2_39
+  - first:
+      213: 5168815665405929552
+    second: Albafeto 2_40
+  - first:
+      213: 4294891949081043500
+    second: Albafeto 2_41
+  - first:
+      213: -468236371295959606
+    second: Albafeto 2_42
+  - first:
+      213: -1587345575574017286
+    second: Albafeto 2_43
+  - first:
+      213: 4052248549404061802
+    second: Albafeto 2_44
+  - first:
+      213: -9165790265839707884
+    second: Albafeto 2_45
+  - first:
+      213: -8039015149156862866
+    second: Albafeto 2_46
+  - first:
+      213: -2193804671130860042
+    second: Albafeto 2_47
+  - first:
+      213: -6372631153544957988
+    second: Albafeto 2_48
+  - first:
+      213: 2581114873628382758
+    second: Albafeto 2_49
+  - first:
+      213: -783981440350997466
+    second: Albafeto 2_50
+  - first:
+      213: -6352740692343731902
+    second: Albafeto 2_51
+  - first:
+      213: 7430035655265935070
+    second: Albafeto 2_52
+  - first:
+      213: -6435564753556691029
+    second: Albafeto 2_53
+  - first:
+      213: 4485710849248202252
+    second: Albafeto 2_54
+  - first:
+      213: -1838413923054845174
+    second: Albafeto 2_55
+  - first:
+      213: -5381027644380217727
+    second: Albafeto 2_56
+  - first:
+      213: -8449161406690353276
+    second: Albafeto 2_57
+  - first:
+      213: 2303360265601036889
+    second: Albafeto 2_58
+  - first:
+      213: -1916290583394242692
+    second: Albafeto 2_59
+  - first:
+      213: -3523917577457299236
+    second: Albafeto 2_60
+  - first:
+      213: -198164327450532377
+    second: Albafeto 2_61
+  - first:
+      213: -4375242246581302113
+    second: Albafeto 2_62
+  - first:
+      213: -7391024721877972408
+    second: Albafeto 2_63
+  - first:
+      213: -250908007097363041
+    second: Albafeto 2_64
+  - first:
+      213: 2298875383882195458
+    second: Albafeto 2_65
+  - first:
+      213: 5708735236060552864
+    second: Albafeto 2_66
+  - first:
+      213: -87650542877561031
+    second: Albafeto 2_67
+  - first:
+      213: -4898129316782445271
+    second: Albafeto 2_68
+  - first:
+      213: 6579397199768411253
+    second: Albafeto 2_69
+  - first:
+      213: -5763603168491951600
+    second: Albafeto 2_70
+  - first:
+      213: 4265867043351490238
+    second: Albafeto 2_71
+  - first:
+      213: 4157159580534297286
+    second: Albafeto 2_72
+  - first:
+      213: 1480081754800525201
+    second: Albafeto 2_73
+  - first:
+      213: 5925890062664712180
+    second: Albafeto 2_74
+  - first:
+      213: 3738753619589231877
+    second: Albafeto 2_75
+  - first:
+      213: -2883789832400379379
+    second: Albafeto 2_76
+  - first:
+      213: -1365600653409863037
+    second: Albafeto 2_77
+  - first:
+      213: -7093604631273416177
+    second: Albafeto 2_78
+  - first:
+      213: 6360930985372969506
+    second: Albafeto 2_79
+  - first:
+      213: -8639852677612556042
+    second: Albafeto 2_80
+  - first:
+      213: -4111666823086969872
+    second: Albafeto 2_81
+  - first:
+      213: -488072493380125139
+    second: Albafeto 2_82
+  - first:
+      213: -4251376552418523070
+    second: Albafeto 2_83
+  - first:
+      213: -3516449815581677318
+    second: Albafeto 2_84
+  - first:
+      213: -6403141480641274279
+    second: Albafeto 2_85
+  - first:
+      213: 1918301164009748142
+    second: Albafeto 2_86
+  - first:
+      213: -2658707639146868780
+    second: Albafeto 2_87
+  - first:
+      213: -5314581800476272831
+    second: Albafeto 2_88
+  - first:
+      213: -1379951418739895523
+    second: Albafeto 2_89
+  - first:
+      213: 4238516794359878689
+    second: Albafeto 2_90
+  - first:
+      213: -7768225514067904172
+    second: Albafeto 2_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A_Libras
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2043
+        width: 315
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54967391169331510800000000000000
+      internalID: 1518620588551661893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2088
+        width: 67
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e236a6b55a5aae200800000000000000
+      internalID: 210162462248035118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_3
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 2032
+        width: 290
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4786b2db8a8cb4630800000000000000
+      internalID: 3912441328355207284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_4
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 2091
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebb20d80ff82fd90800000000000000
+      internalID: -7065426602070197273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_6
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 2059
+        width: 365
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2420d1a11e872f430800000000000000
+      internalID: 3815244742537314882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_7
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 2134
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b06cc22824fc7130800000000000000
+      internalID: 3565993458190278835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_9
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 2047
+        width: 270
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2af7ba6f6ae62d0800000000000000
+      internalID: -3283503499937078584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_10
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 2102
+        width: 43
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bb675ee33cd6f00800000000000000
+      internalID: 1111759357935532877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_12
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 2047
+        width: 281
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6fd34c8b39e6ed0800000000000000
+      internalID: -2418833528075716955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_13
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 2124
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87be43af8e3aaada0800000000000000
+      internalID: -5932749338081694856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_15
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 2040
+        width: 213
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d338638f3599290800000000000000
+      internalID: -7883177347203777147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_16
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 2114
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70beaaf8706922a30800000000000000
+      internalID: 4189075562627263239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_18
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1521
+        width: 281
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cced0b44e9cc275a0800000000000000
+      internalID: -6524927929977086260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_19
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1525
+        width: 211
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a07a490923ae7aa0800000000000000
+      internalID: -6161307843551399776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_20
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1764
+        width: 113
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbd02d9978e2b520800000000000000
+      internalID: 2716489134282693630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_21
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1515
+        width: 231
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dcb62fe25d83760800000000000000
+      internalID: 7437929182214737279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_22
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1519
+        width: 399
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c38959ec00668b0800000000000000
+      internalID: -5159435435833279465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_23
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 1523
+        width: 264
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c81b25b6faab3690800000000000000
+      internalID: -7621309967816255294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_24
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 1532
+        width: 373
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bc9ada1428703f0800000000000000
+      internalID: -934635179058017487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_25
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1609
+        width: 68
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c5ba1da4ec90480800000000000000
+      internalID: -8932381565172097907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_27
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1561
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773ca7d739b05e750800000000000000
+      internalID: 6333481179059766135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_31
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1564
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de8fee3ef4774780800000000000000
+      internalID: -8698855519916421417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_32
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 1614
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a7514aaa0d4f680800000000000000
+      internalID: -8722117146993919470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_33
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 1551
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3c7ce5c914df320800000000000000
+      internalID: 2593301100296127395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_Libras
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1015
+        width: 232
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367120111776fa070800000000000000
+      internalID: 8119822388486608739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_38
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1058
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750b8a6998fbce1b0800000000000000
+      internalID: -5625911236833529769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_40
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1019
+        width: 243
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058aefd46725bb740800000000000000
+      internalID: 5168815665405929552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_41
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1076
+        width: 49
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2229ade8758a9b30800000000000000
+      internalID: 4294891949081043500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_43
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1024
+        width: 344
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa6f10fb9d98f9e0800000000000000
+      internalID: -1587345575574017286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_44
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1080
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6032d0069a7c3830800000000000000
+      internalID: 4052248549404061802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_45
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1027
+        width: 427
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41914eec0529cc080800000000000000
+      internalID: -9165790265839707884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_46
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1065
+        width: 48
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64758a705eaf6090800000000000000
+      internalID: -8039015149156862866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Q_Libras
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 1032
+        width: 250
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f507ae564a0e81e0800000000000000
+      internalID: -2193804671130860042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Q
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 1114
+        width: 114
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf6d50cabddf87a0800000000000000
+      internalID: -6372631153544957988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_50
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 1027
+        width: 254
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6243161a80dbe15f0800000000000000
+      internalID: -783981440350997466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_51
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 1085
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249cea2aff786d7a0800000000000000
+      internalID: -6352740692343731902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S_Libras
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 493
+        width: 300
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a030f2ef644ac76e0800000000000000
+      internalID: -1838413923054845174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 501
+        width: 59
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ef82a0edfb255b0800000000000000
+      internalID: -5381027644380217727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_58
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 502
+        width: 209
+        height: 423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95236e435fd27ff10800000000000000
+      internalID: 2303360265601036889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_59
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 505
+        width: 68
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f2c5a0ed7f765e0800000000000000
+      internalID: -1916290583394242692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_61
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 505
+        width: 282
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e52827189aff3df0800000000000000
+      internalID: -198164327450532377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_62
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 525
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c4d369b540843c0800000000000000
+      internalID: -4375242246581302113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_64
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 501
+        width: 266
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9519a53f78948cf0800000000000000
+      internalID: -250908007097363041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_65
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 529
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202203f4bfe37ef10800000000000000
+      internalID: 2298875383882195458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_67
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 501
+        width: 288
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fa96fab4a98cef0800000000000000
+      internalID: -87650542877561031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_68
+      rect:
+        serializedVersion: 2
+        x: 2830
+        y: 535
+        width: 93
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d61497659560cb0800000000000000
+      internalID: -4898129316782445271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_70
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 509
+        width: 399
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aa8b384719300b0800000000000000
+      internalID: -5763603168491951600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_71
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 411
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebee2027977633b30800000000000000
+      internalID: 4265867043351490238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_80
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 72
+        width: 489
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0323ff3c3191880800000000000000
+      internalID: -8639852677612556042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_88
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 57
+        width: 363
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1471bd4a200de36b0800000000000000
+      internalID: -5314581800476272831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Albafeto 2_90
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 99
+        width: 105
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124195e519c32da30800000000000000
+      internalID: 4238516794359878689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ca8bdc1f0b7f4f14da03c4fc912a7a41
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A: 210162462248035118
+      A_Libras: 1518620588551661893
+      Albafeto 2_0: 383659148
+      Albafeto 2_10: 1111759357935532877
+      Albafeto 2_11: -4157714831932171855
+      Albafeto 2_12: -2418833528075716955
+      Albafeto 2_13: -5932749338081694856
+      Albafeto 2_14: 2048783954822988169
+      Albafeto 2_15: -7883177347203777147
+      Albafeto 2_16: 4189075562627263239
+      Albafeto 2_17: 5591012925907737002
+      Albafeto 2_18: -6524927929977086260
+      Albafeto 2_19: -6161307843551399776
+      Albafeto 2_2: 8222804220223584411
+      Albafeto 2_20: 2716489134282693630
+      Albafeto 2_21: 7437929182214737279
+      Albafeto 2_22: -5159435435833279465
+      Albafeto 2_23: -7621309967816255294
+      Albafeto 2_24: -934635179058017487
+      Albafeto 2_25: -8932381565172097907
+      Albafeto 2_26: -8763633384247757743
+      Albafeto 2_27: 6333481179059766135
+      Albafeto 2_28: 8690579220624071159
+      Albafeto 2_29: 2383671570629277499
+      Albafeto 2_3: 3912441328355207284
+      Albafeto 2_30: -1636256398336493542
+      Albafeto 2_31: -8698855519916421417
+      Albafeto 2_32: -8722117146993919470
+      Albafeto 2_33: 2593301100296127395
+      Albafeto 2_34: 1438236480324205387
+      Albafeto 2_35: -1046277778767833709
+      Albafeto 2_36: 4832437771432804619
+      Albafeto 2_38: -5625911236833529769
+      Albafeto 2_39: -1216597967970858428
+      Albafeto 2_4: -7065426602070197273
+      Albafeto 2_40: 5168815665405929552
+      Albafeto 2_41: 4294891949081043500
+      Albafeto 2_42: -468236371295959606
+      Albafeto 2_43: -1587345575574017286
+      Albafeto 2_44: 4052248549404061802
+      Albafeto 2_45: -9165790265839707884
+      Albafeto 2_46: -8039015149156862866
+      Albafeto 2_49: 2581114873628382758
+      Albafeto 2_5: -9160976641215304455
+      Albafeto 2_50: -783981440350997466
+      Albafeto 2_51: -6352740692343731902
+      Albafeto 2_52: 7430035655265935070
+      Albafeto 2_53: -6435564753556691029
+      Albafeto 2_54: 4485710849248202252
+      Albafeto 2_57: -8449161406690353276
+      Albafeto 2_58: 2303360265601036889
+      Albafeto 2_59: -1916290583394242692
+      Albafeto 2_6: 3815244742537314882
+      Albafeto 2_60: -3523917577457299236
+      Albafeto 2_61: -198164327450532377
+      Albafeto 2_62: -4375242246581302113
+      Albafeto 2_63: -7391024721877972408
+      Albafeto 2_64: -250908007097363041
+      Albafeto 2_65: 2298875383882195458
+      Albafeto 2_66: 5708735236060552864
+      Albafeto 2_67: -87650542877561031
+      Albafeto 2_68: -4898129316782445271
+      Albafeto 2_69: 6579397199768411253
+      Albafeto 2_7: 3565993458190278835
+      Albafeto 2_70: -5763603168491951600
+      Albafeto 2_71: 4265867043351490238
+      Albafeto 2_72: 4157159580534297286
+      Albafeto 2_73: 1480081754800525201
+      Albafeto 2_74: 5925890062664712180
+      Albafeto 2_75: 3738753619589231877
+      Albafeto 2_76: -2883789832400379379
+      Albafeto 2_77: -1365600653409863037
+      Albafeto 2_78: -7093604631273416177
+      Albafeto 2_79: 6360930985372969506
+      Albafeto 2_8: 8853725761386896048
+      Albafeto 2_80: -8639852677612556042
+      Albafeto 2_81: -4111666823086969872
+      Albafeto 2_82: -488072493380125139
+      Albafeto 2_83: -4251376552418523070
+      Albafeto 2_84: -3516449815581677318
+      Albafeto 2_85: -6403141480641274279
+      Albafeto 2_86: 1918301164009748142
+      Albafeto 2_87: -2658707639146868780
+      Albafeto 2_88: -5314581800476272831
+      Albafeto 2_89: -1379951418739895523
+      Albafeto 2_9: -3283503499937078584
+      Albafeto 2_90: 4238516794359878689
+      Albafeto 2_91: -7768225514067904172
+      M_Libras: 8119822388486608739
+      Q: -6372631153544957988
+      Q_Libras: -2193804671130860042
+      S: -5381027644380217727
+      S_Libras: -1838413923054845174
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

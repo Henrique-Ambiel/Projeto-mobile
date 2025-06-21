@@ -5067,7 +5067,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: japanese-school_8x8-final.tileset_224
+      name: a2
       rect:
         serializedVersion: 2
         x: 8
@@ -5397,7 +5397,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: japanese-school_8x8-final.tileset_239
+      name: a
       rect:
         serializedVersion: 2
         x: 0
@@ -17092,6 +17092,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      a: 2010332701
+      a2: 1874637669
       japanese-school_8x8-final.tileset_0: -1075136295349468683
       japanese-school_8x8-final.tileset_1: -1244340384
       japanese-school_8x8-final.tileset_10: 25488255
@@ -17232,7 +17234,6 @@ TextureImporter:
       japanese-school_8x8-final.tileset_221: 29883638
       japanese-school_8x8-final.tileset_222: 353124689
       japanese-school_8x8-final.tileset_223: 2115544140
-      japanese-school_8x8-final.tileset_224: 1874637669
       japanese-school_8x8-final.tileset_225: -505875979
       japanese-school_8x8-final.tileset_226: 1140254857
       japanese-school_8x8-final.tileset_227: 1360472232
@@ -17248,7 +17249,6 @@ TextureImporter:
       japanese-school_8x8-final.tileset_236: -2030312290
       japanese-school_8x8-final.tileset_237: -426493773
       japanese-school_8x8-final.tileset_238: 1676232322
-      japanese-school_8x8-final.tileset_239: 2010332701
       japanese-school_8x8-final.tileset_24: -1432308647
       japanese-school_8x8-final.tileset_240: -2000011117
       japanese-school_8x8-final.tileset_241: 1906983297

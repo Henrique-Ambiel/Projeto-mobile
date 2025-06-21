@@ -5,7 +5,7 @@ public class PlayerTrigger
 {
     private PlayerManager playerManager;
     public int paper;
-    
+
     public PlayerTrigger(PlayerManager playerManager)
     {
         this.playerManager = playerManager;
@@ -17,13 +17,12 @@ public class PlayerTrigger
         
         if (other.CompareTag("puzzleBooks"))
         {
+            
             if (PlayerManager.valueBook != 0)
             {
                 if (ItemPickUp.CanAnswerPuzzle == true)
                 {
-                    playerManager.cabinets.SetActive(true);
-                    playerManager.PlayerStop();
-                    
+                    playerManager.ShowCabinets();
                 }
             }
         }
